@@ -1,0 +1,3 @@
+# **Exile Forge**
+
+## Exile Forge is a tool for the game Path of Exile created by Grinding Gear Games. This tool helps streamline and simplify the creation, distribution and use of build guides. This tool will be exceptionally helpful for new players but experienced veterans will be able to find use of a tool like this as well. Planning significant integration with other community made tools to create a single application solution.
