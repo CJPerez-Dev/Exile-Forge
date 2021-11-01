@@ -1,2 +1,2 @@
-# Developers
-## - Chase Perez
+## Developers
+- **Chase Perez**

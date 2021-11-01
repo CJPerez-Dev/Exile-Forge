@@ -6,9 +6,9 @@
 <details>
 <summary>Detailed Summary (Click to view):</summary>
 
-- Added [README.md](https://github.com/CJPerez-Dev/Exile-Forge/README.md)
-- Added [CHANGELOG.md](https://github.com/CJPerez-Dev/Exile-Forge/CHANGELOG.md)
-- Added [CREDITS.md](https://github.com/CJPerez-Dev/Exile-Forge/CREDITS.md)
+- Added [README.md](https://github.com/CJPerez-Dev/Exile-Forge/blob/main/README.md)
+- Added [CHANGELOG.md](https://github.com/CJPerez-Dev/Exile-Forge/blob/main/CHANGELOG.md)
+- Added [CREDITS.md](https://github.com/CJPerez-Dev/Exile-Forge/blob/main/CREDITS.md)
 - Added .gitignore file for Node and VSCode
 
 </details>
