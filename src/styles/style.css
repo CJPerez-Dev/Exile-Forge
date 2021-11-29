@@ -1,7 +1,7 @@
 html, body{
     margin: 0;
     padding: 0;
-    font-size: 12pt;
+    font-size: 24pt;
     background-color: #121212;
 }
 
@@ -17,14 +17,13 @@ html, body{
     -webkit-box-sizing: border-box;
 }
 
-.sidebar-grid-container {
-    display: grid;
-    gap: 15px;
+.main-window > .sidebar-container {
     height: 100%;
     width: 80px;
     position: fixed;
     z-index: 1;
-    top: 0;
+    top: 0px;
+    bottom: auto;
     left: 0;
     background-color: #232323;
     border: 1px solid black;
@@ -32,68 +31,26 @@ html, body{
     overflow: hidden;
 }
 
-.sidebar-grid-item-nav {
+.sidebar-container > div {
     text-align: center;
+    vertical-align: bottom;
     color: white;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    padding-top: 60px;
+    padding: 20px;
+    height: 50px;
 }
 
-.sidebar-grid-item-home {
-    text-align: center;
+.material-icons {
+    --webkit-user-select: none;
+    line-height: 24px;
+    font-size: 36px;
     color: white;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    transition: 0.2s;
 }
 
-.sidebar-grid-item-build {
-    text-align: center;
-    color: white;
-    grid-row-start: 3;
-    grid-row-end: 4;
-}
-
-.sidebar-grid-item-level {
-    text-align: center;
-    color: white;
-    grid-row-start: 4;
-    grid-row-end: 5;
-}
-
-.sidebar-grid-item-file {
-    text-align: center;
-    color: white;
-    grid-row-start: 5;
-    grid-row-end: 6;
-}
-
-.sidebar-grid-item-setting {
-    text-align: center;
-    color: white;
-    grid-row-start: 8;
-    grid-row-end: 9;
-}
-
-.title-bar {
-    display: grid;
-    height: 15px;
-    width: 100%;
-    position: fixed;
-    z-index: 2;
-    top: 0;
-    left: 0;
-    background-color: black;
-    border: 1px solid black;
-    box-shadow: 0px 3px 2px #101010;
-    overflow-y: hidden;
-    padding: 4px;
-    -webkit-app-region: drag;
-}
-
-.title-bar-text {
-    text-align: center;
-    color: #c0c0c0;   
-    grid-column-start: 1;
-    grid-column-end: 3;
+.material-icons:hover {
+    cursor: pointer;
+    font-size: larger;
 }
